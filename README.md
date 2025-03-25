@@ -10,4 +10,6 @@ Neutron flux is simulated as well as reactivity and temperature for all componen
 
 This allows for heat transfer to occur in 'real-time'. If a cycle takes a bit longer to calculate, then slightly more heat will be transferred and the coolant chunks will move a bit further. This allows operators to use the program as a real-time trainer, with real-time responses.
 
-Lastly, certain protective actions can be initiated. You can scram or adjust control rod heights using the command line.
+Additionally, certain protective actions can be initiated. You can scram or adjust control rod heights using the command line.
+
+Finally, the repository as is supports cross-building using CMAKE features, so you can compile it to run on any hardware that CMAKE supports cross-compile for. It was tested on a Raspberry Pi 5.
