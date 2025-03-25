@@ -1,0 +1,14 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -G Ninja -S /Volumes/Gondolin/MichaelSchool/2024-2025/01_Fall/SWENG452W/FinalProject/FinalProjectLab -B /Volumes/Gondolin/MichaelSchool/2024-2025/01_Fall/SWENG452W/FinalProject/FinalProjectLab/cmake-build-localdebug
+CMake Error: The current CMakeCache.txt directory /Volumes/Gondolin/MichaelSchool/2024-2025/01_Fall/SWENG452W/FinalProject/FinalProjectLab/cmake-build-localdebug/_deps/glm-subbuild/CMakeCache.txt is different than the directory /Users/michael/Michael School/2024-2025/01_Fall/SWENG452W/FinalProject/FinalProjectLab/cmake-build-localdebug/_deps/glm-subbuild where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+
+CMake Error at /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/FetchContent.cmake:1906 (message):
+  CMake step for glm failed: 1
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/FetchContent.cmake:1609 (__FetchContent_populateSubbuild)
+  /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/FetchContent.cmake:2145:EVAL:2 (__FetchContent_doPopulation)
+  /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/FetchContent.cmake:2145 (cmake_language)
+  /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/FetchContent.cmake:2384 (__FetchContent_Populate)
+  CMakeLists.txt:58 (FetchContent_MakeAvailable)
+
+
+-- Configuring incomplete, errors occurred!
